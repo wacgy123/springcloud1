@@ -1,0 +1,7 @@
+# hystrix\u4EEA\u8868\u76D8\u53EF\u4EE5\u662F\u4E00\u4E2A\u5B8C\u5168\u72EC\u7ACB\u7684\u9879\u76EE \u4E0D\u7528\u53BB\u8FDE\u63A5eureka
+server:
+  port: 4001
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: localhost
