@@ -8,6 +8,9 @@ spring:
     host: 192.168.64.140
     username: admin
     password: admin
+  zipkin:
+    sender:
+      type: RABBIT
 server:
   port: 8201
 
